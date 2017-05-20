@@ -1,0 +1,23 @@
+*.class
+*~
+*.log
+
+# archives and packages
+
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.jar
+*.war
+*.ear
+
+# IDE items to ignore
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+build/
+out/
+.gradle/
