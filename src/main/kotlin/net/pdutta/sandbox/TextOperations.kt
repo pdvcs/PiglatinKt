@@ -7,6 +7,8 @@ fun piglatin (phrase: String): String {
 
     for (word in phrase.toLowerCase().split(" ")) {
         if (word[0] in vowels) {
+            // although snowcrest.net doesn't work this way, this appears to be better
+            //                                               V
             outputWords.add(word + (if (word.last() == 'w') "ay" else "way"))
         } else if (word.slice(0..1) == "qu") {
             outputWords.add(word.drop(2) + "quay")
