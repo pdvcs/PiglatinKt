@@ -5,7 +5,7 @@ fun piglatin (phrase: String): String {
     val vowelsPlus = "aeiouy".toCharArray()
     val outputWords = mutableListOf<String>()
 
-    for (word in phrase.toLowerCase().split(" ")) {
+    for (word in phrase.lowercase().split(" ")) {
         if (word[0] in vowels) {
             // although snowcrest.net doesn't work this way, this appears to be better
             //                                               V
