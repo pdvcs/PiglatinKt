@@ -18,6 +18,7 @@
 .settings/
 *.iml
 .idea/
+bin/
 build/
 out/
 .gradle/
